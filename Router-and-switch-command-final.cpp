@@ -74,7 +74,7 @@ end
 telnet
 192.168.11.3
 
-<<fortinet firewall management port>>
+<<fortinet firewall configration>>
 FortiGate-VM64-KVM (interface) # config system interface
 FortiGate-VM64-KVM (interface) # edit port1
 FortiGate-VM64-KVM (port1) # set mode static
@@ -83,8 +83,6 @@ FortiGate-VM64-KVM (port1) # set allowaccess ping http https telnet ssh
 FortiGate-VM64-KVM (port1) # set role wan
 FortiGate-VM64-KVM (port1) # set alias wan
 FortiGate-VM64-KVM (port1) # end
-
-
 show system interface
 conifg system interface
 edit port1
