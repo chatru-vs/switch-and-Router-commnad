@@ -1,23 +1,6 @@
 Ipsec tunnel configuration in cisco router.txt
-Who has access
-A
-System properties
-Type
-Text
-Size
-935 bytes
-Storage used
-935 bytes
-Owner
-Abdullah Masud
-Modified
-May 6, 2020 by Abdullah Masud
-Opened
-10:21 PM by me
-Created
-May 6, 2020
-No description
-Viewers can download
+
+
 Basic Router Config:
 Interface ethernet0/0
  ip address 192.168.99.3 255.255.255.0
